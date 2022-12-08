@@ -27,5 +27,5 @@ In this project we will classify human facial expressions to filter and map corr
 If you need any help feel free to contact on email: amjadpitafi070@gmail.com
 
 ## Authors
-*Developed by: Amjad Ali, Hammad Ahmed, Prem Sagar
-*Supervised by: Dr, Sher Muhammad
+Developed by: Amjad Ali, Hammad Ahmed, Prem Sagar "/n"
+Supervised by: Dr, Sher Muhammad
