@@ -12,12 +12,12 @@ In this project we will classify human facial expressions to filter and map corr
 * cv2 (opencv)
 * numpy
 * matplotlib
-* Visual Studio Code / pycharm
+* Visual Studio Code / pycharm / GoogleColab
 
 ### Installing
 
 * Donwload project and extract it.
-* Open folder in VS code
+* Open as folder in VS code
 * Run Emojify.py
 * After execuation it will provide you a local host ip : http://127.0.0.1:5000
 * Open that ip on any browser
