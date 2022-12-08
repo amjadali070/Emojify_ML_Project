@@ -12,7 +12,7 @@ In this project we will classify human facial expressions to filter and map corr
 * cv2 (opencv)
 * numpy
 * matplotlib
-* Visual Studio Code
+* Visual Studio Code / pycharm
 
 ### Installing
 
