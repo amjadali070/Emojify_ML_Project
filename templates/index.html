@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Emojify</title>
+
+    <style>
+
+      h1{
+        text-align: center;
+        color: white;
+      }
+
+
+      .title{
+        background-color: DarkSalmon;
+        margin: 5px;
+        padding: 10px;
+      }
+
+
+      h3{
+        color: black;
+        text-align: center;
+        padding: 10px;
+
+      }
+
+
+      .png {
+         width:540px;
+         height: 405px;
+         object-fit: scale-down;
+         padding-left: 30px;
+         background-color: white;
+      }
+
+	  .emo {
+		  width:540px;
+      height:400px
+      object-fit: cover;
+      background-color: white;
+	  }
+
+    .header{
+        margin: 5px;
+        font-size: 20px;
+        text-align: center;  
+        font-weight: bolder;
+
+    }
+
+    .video{
+      border-style: solid;
+      border-radius: 20px;
+      border-color: black;
+      color: white;
+    }
+
+    .emoj
+    {
+      border-style: solid;
+      border-radius: 20px;
+      border-color: black;
+      color: white;
+    }
+
+    .footer {
+      margin: auto;
+      width: 50%;
+      height: 75px;
+      padding: 10px;
+      text-align: center;
+      margin-top: 20px;
+      color: black;
+      border-style: dotted;
+      border-radius: 10px;
+    }
+
+    body{
+      background-color:#659DBD;
+    }
+
+    </style>
+
+
+  </head>
+
+  <body>
+    <div class="title">
+        <h1>EMOJIFY</h1>
+    </div>
+
+    <div class="header">
+      <p>Emotion Detection from Facial Expressions</p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="vid col-sm-5 col-md-6">
+          <h3 class ="video">Video</h3>
+        </div>
+
+        <div class="emoji col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+          <h3 class="emoj">Emoji</h3>
+        </div>
+
+      </div>
+
+      
+      <div class="row">
+        <div class="col-sm-6 col-md-5 col-lg-6">
+          <img class="emo" src="{{ url_for('video') }}"  style="border-radius:10px" />
+        </div>
+        
+        <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+          <img class="png" src="{{ url_for('stream') }}" alt = "not found" style="border-radius:10px" />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <footer>
+        <p>Developed by: Amjad Ali, Hammad Ahmed and Prem Sagar <br> 
+          Supervised by: Dr Sher Muhammad</p>
+      </footer>
+    </div>
+
+  </body>
+</html>
